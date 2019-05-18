@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.author             = { "Paolo Musolino" => "info@codeido.com" }
   s.social_media_url   = "http://twitter.com/pmusolino"
   s.platform     = :ios, "9.0"
+  s.swift_version = '4.2'
   s.source       = { :git => "https://github.com/pmusolino/PMAlertController.git", :tag => s.version }
   s.source_files  = "Library/**/*"
   s.resource_bundles = {
